@@ -1,0 +1,12 @@
+\copy City FROM './data/City.csv' WITH (FORMAT CSV);
+\copy Airline FROM './data/Airline.csv' WITH (FORMAT CSV);
+\copy Passenger FROM './data/Passenger.csv' WITH (FORMAT CSV);
+\copy Plane FROM './data/Plane.csv' WITH (FORMAT CSV);
+\copy Seat FROM './data/Seat.csv' WITH (FORMAT CSV);
+\copy Airport FROM './data/Airport.csv' WITH (FORMAT CSV);
+\copy Route FROM './data/Route.csv' WITH (FORMAT CSV);
+\copy Flight FROM './data/Flight.csv' WITH (FORMAT CSV);
+\copy Departure FROM './data/Departure.csv' WITH (FORMAT CSV);
+\copy Arrival FROM './data/Arrival.csv' WITH (FORMAT CSV);
+\copy FlightPrice FROM './data/FlightPrice.csv' WITH (FORMAT CSV);
+\copy Booking FROM './data/Booking.csv' WITH (FORMAT CSV);
